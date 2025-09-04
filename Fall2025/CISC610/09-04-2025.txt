@@ -1,0 +1,10 @@
+Loop invariants:
+
+- At the start of each iteration of the for loop, the sub array A[0...j-1]
+consists of elements originally in A[0...j-1] but in sorted order
+
+Running time = function of input size
+
+RAM model:
+- instructions execute sequentially, no parallelism
+- one instruction costs the same as another
